@@ -11,5 +11,5 @@ for j in range(200):
     plt.savefig("datos"+str(i)+".png")
     plt.close(datos)
 for i in range(200):
-    images.append(imageio.imread("datos"+str(i)+".png")
+    images.append(imageio.imread("datos"+str(i)+".png"))
 imageio.mimsave("imagen.gif", images)
